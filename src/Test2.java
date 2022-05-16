@@ -9,6 +9,7 @@ public class Test2 {
         System.out.println("dev提交");
 
         System.out.println("远程仓库新加内容");
+        System.out.println("远程仓库新加内容2");
     }
 
 }
