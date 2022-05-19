@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Test2 {
 
     public static void main(String[] args) {
@@ -11,6 +13,12 @@ public class Test2 {
         System.out.println("远程仓库新加内容");
         System.out.println("远程仓库新加内容2");
         System.out.println("dev增加内容");
+
+        ArrayList<Integer> list = new ArrayList<>();
+        list.add(10);
+        list.add(11);
+        list.add(11);
+        System.out.println(list);
     }
 
 }
